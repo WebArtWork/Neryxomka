@@ -18,11 +18,13 @@
 	<h1>{{{article.name}}}</h1>
 	<img src="{{{article.thumb}}}" alt="{{{article.name}}}">
 {% endfor %}
+
 {% if store.data.telegram %}
 <a href="{{{store.data.telegram}}}"><svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
 		<path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z" />
 	</svg></a>
 {% endif %}
+
 {% if store.data.phone %}
 <a href="{{{store.data.phone}}}"><svg style="
 											enable-background: new 0 0 100 100;
@@ -40,6 +42,7 @@
 		</g>
 	</svg></a>
 {% endif %}
+
 {% if store.data.facebook %}
 <a href="{{{store.data.facebook}}}"><svg height="100%" style="
 											fill-rule: evenodd;
@@ -50,7 +53,8 @@
 		<path d="M374.244,285.825l14.105,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.116,0l0,-78.291c0,0 -36.407,-6.214 -71.213,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.541 32.798,3.865 49.709,3.865c16.911,0 33.511,-1.324 49.708,-3.865l0,-222.31l74.128,0Z" style="fill-rule: nonzero" />
 	</svg></a>
 {% endif %}
-{% endif %} {% if store.data.instagram %}
+
+{% if store.data.instagram %}
 <a href="{{{store.data.instagram}}}"><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
 		<rect fill="none" height="256" width="256" />
 		<circle cx="128" cy="128" r="32" />
