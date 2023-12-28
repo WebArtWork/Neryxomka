@@ -1,0 +1,8 @@
+{% for realestate in realestates %}
+<h1>{{{realestate.name}}}</h1>
+<img src="{{{realestate.thumb}}}" alt="{{{realestate.name}}}">
+<div>
+	{{{realestate.short}}}
+</div>
+<span>{{{realestate.price}}}</span>
+{% endfor %}
